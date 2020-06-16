@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.main-container {
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-bar-user {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
+  padding: 5px;
+  
+}
+.main-bar-margin-right
+{
+  margin-left: 20px;
+}
+.main-bar-ticket {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  
+}
+.main-lot-icon {
+  width: 120px;
+}
+.main-lot-reservation {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  line-height: 10px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 120px;
 }
-
-.App-link {
-  color: #61dafb;
+.main-lot-reservation  img{
+  width: 60px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-lot-reservation-text {
+  margin-left: 10px;
+}
+.main-lot-reservation-text p:nth-child(2)
+{
+  display: flex;
+    justify-content: space-between;
+    
+}
+.section-border-bottom
+{
+  border-bottom: 1px solid black;
 }
