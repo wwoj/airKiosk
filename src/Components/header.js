@@ -11,11 +11,9 @@ export default class Header extends Component {
     return (
       <div>
         <section className="main-bar-user section-border-bottom">
-          <UserIcon className="main-bar-margin-right"/>
-          <span className="main-bar-margin-right">
-          Moje konto
-          </span>
-          <ShoppingCart className="main-bar-margin-right" />
+          <UserIcon />
+          <span className="main-bar-margin-right">Moje konto</span>
+          <ShoppingCart />
           <span className="main-bar-margin-right">
               0 PLN
               </span>
@@ -40,7 +38,7 @@ export default class Header extends Component {
           </select>
         </section>
         <section className="main-bar-ticket section-border-bottom">
-          <div>
+          <div className="main-bar-logo">
             <img src={LotIcon} alt="logo" className="img-div"  className="main-lot-icon"/>
           </div>
           <div className="main-lot-reservation">
@@ -52,7 +50,8 @@ export default class Header extends Component {
                 <span>Numer Twojej rezerwacji:</span>
                 </p>
                 <p>
-                    <span>233AD8</span> <span><a href="/">zmień</a></span>
+                    <span>233AD8</span> <span><a href="/" className="a-decorations">zmień</a></span>
+                    <FontAwesomeIcon icon="coffee" />
                 </p>
             </div>
           </div>
