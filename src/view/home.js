@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Carousel_0 from "../Pictures/carousel_0.jpg";
 import Carousel_1 from "../Pictures/carousel_4.JPG";
 import Carousel_2 from "../Pictures/carousel_2.jpg";
-import ShopItem from '../Components/shopItem'
+import ShopTopItem, {ShopElement} from '../Components/shopItem'
 import '../style/home.css'
 export default class Home extends Component {
   test = () => {
@@ -64,22 +64,13 @@ export default class Home extends Component {
           </Carousel>
         </div>
         <div className="occasions-main">
-          <div className="occasion-element">
-            <img className="d-block w-100" src={Carousel_0} alt="First slide" />
-            <ShopItem/>
-          </div>
-          <div className="occasion-element">
-            <img className="d-block w-100" src={Carousel_0} alt="First slide" />
-          </div>
-          <div className="occasion-element">
-            <img className="d-block w-100" src={Carousel_0} alt="First slide" />
-          </div>
-          <div className="occasion-element">
-            <img className="d-block w-100" src={Carousel_0} alt="First slide" />
-          </div>
+          <ShopTopItem/>
+          <ShopElement/>
+          <ShopElement/>
+          <ShopElement/>
         
         </div>
-        aaa
+      
       </div>
     );
   }
