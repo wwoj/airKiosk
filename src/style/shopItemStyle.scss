@@ -1,0 +1,18 @@
+%priceColor{
+    color:#646464
+}
+.currentPrice{
+@extend %priceColor;
+font-size: 1.5rem;
+
+font-weight: 600;
+}
+.prevPrice{
+    @extend %priceColor;
+    text-decoration:line-through ;
+}
+.price-line{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}

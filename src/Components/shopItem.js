@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import '../style/shopItemStyle.scss'
 export default class ShopTopItem extends Component {
   render() {
     return (
@@ -11,7 +11,7 @@ export default class ShopTopItem extends Component {
         />
         <div className="occasion-text-container">
           <h4>
-            <div className="occasion-text">Biżuteria Versalka</div>
+            <div className="occasion-text">Biżuteriaaaa Versalka</div>
           </h4>
         </div>
         <p className="occasion-item">Opisujemy tutaj wszystko lo</p>
@@ -32,7 +32,7 @@ export  class ShopElement extends Component {
         />
         
             <div className="occasion-text"><h6>PIERŚCIONEK VISANTI</h6><p>srebrny z białą perłą słodkowodną ok. 6mm</p></div>
-         <div><span>89.99zł</span><span> nie 99.99zł</span></div>
+         <div className="price-line"><span className="currentPrice">89.99 PLN</span><span className="prevPrice">  99.99 PLN</span></div>
       </div>
     );
   }

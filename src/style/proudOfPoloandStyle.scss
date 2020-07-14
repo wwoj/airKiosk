@@ -1,0 +1,40 @@
+.proud-of-poland-container {
+  padding-top: 20px;
+}
+.proud-poland-picture {
+  max-width: 135px;
+  margin: auto;
+  width: 70%;
+}
+.proud-poland-picture-main {
+  max-width: 250px;
+  margin: auto;
+  width: 100%;
+}
+.proud-of-poland {
+  width: 23%;
+  min-width: 200px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.poland-proud-button {
+  width: 100%;
+  background-color: rgba(19, 46, 113, 1);
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
+.proud-poland-text {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+.proud-text-item {
+  width: 70%;
+}

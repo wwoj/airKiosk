@@ -1,0 +1,18 @@
+@import './style/specialsStyle';
+.special-offerts{
+    width: 80%;
+    margin: auto;
+    
+    
+    @extend %display-flex;
+}
+%display-flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+.special-objects
+{ 
+    width: 48%;
+    height: 300px;
+}
