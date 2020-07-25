@@ -1,0 +1,41 @@
+.input-group-text, .form-control{
+    border:none;
+    background-color: transparent;
+}
+.input-group{
+    border-radius: 0.3vw;
+    background-color: rgb(240, 240, 240);
+}
+.nav-search-input
+{
+  background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s
+}
+.nav-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+.active-link{
+  font-weight: 700;
+  position: relative;
+}
+.active-link:before{
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 2px solid rgb(45, 45, 88);
+}
+a{
+  color:rgba(19, 46, 113, 1);
+  text-decoration: none;
+    background-color: transparent;
+}
+.a-decorations{
+  text-decoration: underline;
+}

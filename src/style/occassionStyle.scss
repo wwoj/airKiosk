@@ -1,0 +1,37 @@
+.occassion-picture {
+    //max-width: 150px;
+    margin: auto;
+    width: 80%;
+  }
+  
+  .occassion-carousel-button{
+    font-size: 1.7vw;
+    letter-spacing: 1px;
+    border: white 4px solid;
+    background: transparent;
+    font-weight: 600;
+    padding: 0 30px 0 30px;
+    border-radius: 0.5vw;
+    color:white
+  }
+  .occassion-card{
+    width: 23%;
+    min-width: 120px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 230px;
+    padding-right: 1px;
+  }
+  
+  .occassion-div-pic{
+    width: 100%;
+    min-height: 180px;
+    max-height: 200px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }

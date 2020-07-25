@@ -1,0 +1,62 @@
+.information-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+}
+.informatin-main {
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.information-div {
+  width: 25%;
+
+  font-weight: 500;
+}
+.information-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.information-content {
+  font-size: 0.9vw;
+}
+.information-content p {
+  margin: 0;
+}
+.information-content > p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.information-contact-type {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.information-contact-text {
+  margin-left: 20px;
+  font-weight: 500;
+}
+.contact-form-a {
+  text-decoration: underline;
+}
+.contact-form-a:hover {
+  cursor: pointer;
+  font-size: 1vw;
+}
+.square-www {
+  width: 22%;
+}
+.container-card-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.container-card-logo img {
+  width: 100%;
+}

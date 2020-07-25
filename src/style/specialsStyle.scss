@@ -20,16 +20,16 @@
   height: 100%;
   display: flex;
 }
-.special-text-1 {
+.special-text-left {
   width: 65%;
   background: #e6e6e6;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   justify-content: center;
   align-items: center;
   vertical-align: baseline;
   @extend %special-bottom-text;
 }
-.special-text-2 {
+.special-text-right {
   width: 35%;
   background: #f0f0f0;
   flex-direction: column;
@@ -45,14 +45,14 @@
 .special-p-main
 {
     @extend %p-max100;
-    font-size: 0.8em;
-    font-weight: 700;
+    font-size: 1vw;
+    font-weight: 600;
 }
 .special-p-desc
 {
     @extend %p-max100;
-    font-size: 0.7em;
-    font-weight: 200;
+    font-size: 0.8vw;
+    font-weight: 400;
 }
 .special-text-container
 {
@@ -68,12 +68,12 @@
     text-align: center;
 }
 .special-text-main >p{
-margin-bottom: 0.2rem;
-font-size: 2.5rem;
+margin-bottom: 0.2vw;
+font-size: 2vw;
 }
 .special-text-main > span
 {
-font-size: 1.0rem;
+font-size: 1vw;
 }
 .special-text-button
 {   border: 2px solid white;

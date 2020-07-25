@@ -32,7 +32,7 @@ export  class ShopElement extends Component {
         />
         
             <div className="occasion-text"><h6>PIERŚCIONEK VISANTI</h6><p>srebrny z białą perłą słodkowodną ok. 6mm</p></div>
-         <div className="price-line"><span className="currentPrice">89.99 PLN</span><span className="prevPrice">  99.99 PLN</span></div>
+         <div className="price-line"><span className="currentPrice">89.99 PLN</span><span className="prevPrice"> 99.99 PLN</span></div>
       </div>
     );
   }

@@ -1,5 +1,8 @@
+.root{
+  min-width: 800px;
+}
 .body{
-  min-width: 940px;
+  min-width: 800px;
 }
 .main-container {
   width: 100%;
@@ -10,102 +13,4 @@
   color:rgba(19, 46, 113, 1)
   
 }
-.main-bar-user {
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px 5px;
-  
-}
-.main-bar-margin-right
-{
-  margin-left: 20px;
-}
-.main-bar-ticket {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 5px;
-  
-}
-.main-lot-icon {
-  width: 120px;
-}
-.main-bar-logo{
-  padding: 0.5rem;
-}
-.main-lot-reservation {
-  display: flex;
-  align-items: center;
-  line-height: 10px;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 120px;
-}
-.main-lot-reservation  img{
-  width: 60px;
-}
-.main-lot-reservation-text {
-  margin-left: 10px;
-}
-.main-lot-reservation-text p:nth-child(2)
-{
-  display: flex;
-    justify-content: space-between;
-    
-}
-.section-border-bottom
-{
-  border-bottom: 1px solid black;
-}
-.nav-search-input
-{
-  background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s
-}
-.nav-section{
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 5px;
-}
-.active-link{
-  font-weight: 700;
-  position: relative;
-}
-.active-link:before{
-  content: "";
-  position: absolute;
-  width: 50%;
-  height: 1px;
-  bottom: 0;
-  left: 25%;
-  border-bottom: 2px solid rgb(45, 45, 88);
-}
-a{
-  color:rgba(19, 46, 113, 1);
-  text-decoration: none;
-    background-color: transparent;
-}
-.a-decorations{
-  text-decoration: underline;
-}
-.carousel-item{
-  max-height: 600px;
-  }
-/* .fullscreen {
-  width: 100vw;
-  position: absolute;
-  left: 0;
-} */
-.carousel-height {
-  height: 600px;
-}
-/* .wide-div {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  
-} */
-.carousel-item > img.w-100
-{
-  max-height: 400px;
-}
+

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-// get our fontawesome imports
-import { faHome, faParking, faPlane } from "@fortawesome/free-solid-svg-icons";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { ShoppingCart, UserIcon } from "../Objects/BootstrapIcons";
 import LotIcon from "../Pictures/LOT_Icon.png";
 import PlaneIcon from "../Pictures/PlaneIcon.png";
+import '../style/headerStyle.scss'
 export default class Header extends Component {
   render() {
     return (

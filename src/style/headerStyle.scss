@@ -1,0 +1,44 @@
+.main-lot-reservation {
+    display: flex;
+    align-items: center;
+    line-height: 10px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+  }
+  .main-bar-user {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 5px;
+  }
+  .main-bar-margin-right
+{
+  margin-left: 20px;
+}
+.main-bar-ticket {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+  }
+  .section-border-bottom
+{
+  border-bottom: 1px solid black;
+}
+.main-bar-logo{
+    padding: 0.5rem;
+  }
+  .main-lot-icon {
+    width: 120px;
+  }
+  .main-lot-reservation  img{
+    width: 60px;
+  }
+  .main-lot-reservation-text {
+    margin-left: 10px;
+  }
+  .main-lot-reservation-text p:nth-child(2)
+  {
+    display: flex;
+      justify-content: space-between;
+      
+  }
