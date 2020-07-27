@@ -4,8 +4,8 @@ import Header from "./Components/header";
 import Navbar from "./Components/navbar";
 import { BrowserRouter, HashRouter, Route } from "react-router-dom";
 import Home from "./view/home";
-import "./App.css";
-import './style/header.css'
+// import "./App.css";
+// import './style/header.css'
 
 function App() {
   return (

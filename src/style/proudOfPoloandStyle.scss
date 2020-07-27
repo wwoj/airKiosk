@@ -20,6 +20,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 .poland-proud-button {
   width: 100%;
@@ -33,8 +34,18 @@
   margin: auto;
   text-align: center;
   padding: 10px;
-  font-size: 0.8rem;
+  font-size: 1vw;
+  font-weight: 500;
 }
 .proud-text-item {
   width: 70%;
+}
+.occasion-text{
+  text-align: center;
+  font-size: 2vw;
+}
+@media screen and (max-width: 800px) {
+  .occasions-main{
+width: 100%;
+  }
 }

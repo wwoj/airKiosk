@@ -10,9 +10,9 @@ import JoinForm from '../Components/joinForm'
 import Informations from '../Components/information';
 import Footer from '../Components/footer';
 
-import "../style/home.css";
-import "../airKioskStyle.scss";
-import "../style/blueDiv.scss";
+// import "../style/home.css";
+// import "../airKioskStyle.scss";
+// import "../style/blueDiv.scss";
 export default class Home extends Component {
   test = () => {
     alert("Wybrana opcja nr 3");
@@ -30,6 +30,7 @@ export default class Home extends Component {
         <JoinForm/>
         <Informations/>
         <Footer/>
+        
       </div>
     );
   }

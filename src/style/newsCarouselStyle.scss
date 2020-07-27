@@ -81,16 +81,6 @@
 %text-deco {
   text-align: center;
 }
-
-// .Obrazek-kurde {
-//   width: 100%;
-//   min-height: 180px;
-//   max-height: 200px;
-//   display: flex;
-//   align-items: center;
-//   overflow: hidden;
-// }
-
 .news-button-div
 {
   padding: 10px;
@@ -103,4 +93,20 @@
   border-radius: 0.4vw;
   color: white;
   background-color:#132e71;
+}
+.carousel-caption > h3{
+  font-size: 3vw;
+}
+.carousel-caption p {
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 800px) {
+
+.carousel-caption > h3{
+  font-size: 4vw;
+}
+.carousel-caption p {
+  font-size: 2vw;
+}
 }

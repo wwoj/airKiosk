@@ -1,37 +1,105 @@
+.occasions-main {
+  position: relative;
+  top: -40px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: wrap;
+}
 .occassion-picture {
-    //max-width: 150px;
-    margin: auto;
-    width: 80%;
-  }
-  
-  .occassion-carousel-button{
-    font-size: 1.7vw;
-    letter-spacing: 1px;
-    border: white 4px solid;
-    background: transparent;
-    font-weight: 600;
-    padding: 0 30px 0 30px;
-    border-radius: 0.5vw;
-    color:white
-  }
-  .occassion-card{
-    width: 23%;
-    min-width: 120px;
+  //max-width: 150px;
+  margin: auto;
+  width: 80%;
+}
+
+.occassion-carousel-button {
+  font-size: 1.7vw;
+  letter-spacing: 1px;
+  border: white 4px solid;
+  background: transparent;
+  font-weight: 600;
+  padding: 0 30px 0 30px;
+  border-radius: 0.5vw;
+  color: white;
+}
+.occassion-card {
+  width: 23%;
+  min-width: 120px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 230px;
+  padding-right: 1px;
+}
+
+.occassion-div-pic {
+  width: 100%;
+  min-height: 180px;
+  max-height: 200px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.occasion-image {
+  max-width: 1335px;
+  margin: 0 auto;
+  width: 90%;
+}
+.price-container {
+  width: 90%;
+  align-items: baseline;
+  display: flex;
+  justify-content: space-around;
+}
+.oldPrice {
+  text-decoration: line-through;
+  color: #646464;
+  font-weight: 600;
+}
+.move-up {
+  display: flex;
+}
+.occasions-main .slick-slider
+{
+  width: 80%;
+  margin: auto;
+}
+.occassion-carousel-comp {
+  width: 98%;
+  margin: auto;
+  min-width: 120px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  min-height: 265px;
+}
+@media screen and (max-width: 800px) {
+  .occasions-main {
     position: relative;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 230px;
-    padding-right: 1px;
-  }
-  
-  .occassion-div-pic{
+    top: 0px;
     width: 100%;
-    min-height: 180px;
-    max-height: 200px;
     display: flex;
-    align-items: center;
-    overflow: hidden;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
   }
+  .occassion-card {
+    width: 98%;
+    margin: auto;
+    min-height: 265px;
+  }
+  .occasions-main  .slick-next:before,.occasions-main .slick-prev:before
+  {
+    color: rgba(19, 46, 113, 1);
+  }
+
+}
+

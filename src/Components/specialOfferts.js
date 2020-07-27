@@ -1,11 +1,11 @@
 import React from 'react';
-import '../style/specialsStyle.scss';
+// import '../style/specialsStyle.scss';
 export default class SpecialOfferts extends React.Component{
 render(){
     return(
 
-        <div className="special-offerts">
-          <div className="special-objects">
+        <div className="special-add-container">
+          <div className="special-add-objects">
             <div className="special-background-1"></div>
             <div className="special-bottom-div">
               <div className="special-text-left">
@@ -20,7 +20,7 @@ render(){
             </div>
           </div>
 
-          <div className="special-objects  ">
+          <div className="special-add-objects  ">
             <div className=" special-background-2 special-text-container">
               <div className="special-text-main">
                 <p>LUKSUSOWY DOJAZD</p>
