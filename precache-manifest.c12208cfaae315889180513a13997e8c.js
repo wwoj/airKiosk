@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0835af907b9275aaa407cdea81e94b12",
+    "revision": "5bc55402514f9bc794ff38c830c333ba",
     "url": "/airKiosk/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/airKiosk/static/css/2.1186e647.chunk.css"
   },
   {
-    "revision": "a0aefd22cb3cba020c32",
-    "url": "/airKiosk/static/css/main.1991649f.chunk.css"
+    "revision": "0d5c304c226b44bd36b6",
+    "url": "/airKiosk/static/css/main.1edd779a.chunk.css"
   },
   {
     "revision": "12880a4e43f306090b6a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/airKiosk/static/js/2.9bec7d78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0aefd22cb3cba020c32",
-    "url": "/airKiosk/static/js/main.a5d68490.chunk.js"
+    "revision": "0d5c304c226b44bd36b6",
+    "url": "/airKiosk/static/js/main.13897861.chunk.js"
   },
   {
     "revision": "f22b2a917e88931975be",
