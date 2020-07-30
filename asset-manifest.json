@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/airKiosk/static/css/main.701bafb8.chunk.css",
+    "main.css": "/airKiosk/static/css/main.0bb6a0eb.chunk.css",
     "main.js": "/airKiosk/static/js/main.ada612bc.chunk.js",
     "main.js.map": "/airKiosk/static/js/main.ada612bc.chunk.js.map",
     "runtime-main.js": "/airKiosk/static/js/runtime-main.860607fe.js",
@@ -9,10 +9,10 @@
     "static/js/2.1de1fb43.chunk.js": "/airKiosk/static/js/2.1de1fb43.chunk.js",
     "static/js/2.1de1fb43.chunk.js.map": "/airKiosk/static/js/2.1de1fb43.chunk.js.map",
     "index.html": "/airKiosk/index.html",
-    "precache-manifest.9cdb42238a5fa97e455b86fffdb076c3.js": "/airKiosk/precache-manifest.9cdb42238a5fa97e455b86fffdb076c3.js",
+    "precache-manifest.5898c6f6ddb36c0bd4670d7a5343b1de.js": "/airKiosk/precache-manifest.5898c6f6ddb36c0bd4670d7a5343b1de.js",
     "service-worker.js": "/airKiosk/service-worker.js",
     "static/css/2.1186e647.chunk.css.map": "/airKiosk/static/css/2.1186e647.chunk.css.map",
-    "static/css/main.701bafb8.chunk.css.map": "/airKiosk/static/css/main.701bafb8.chunk.css.map",
+    "static/css/main.0bb6a0eb.chunk.css.map": "/airKiosk/static/css/main.0bb6a0eb.chunk.css.map",
     "static/js/2.1de1fb43.chunk.js.LICENSE.txt": "/airKiosk/static/js/2.1de1fb43.chunk.js.LICENSE.txt",
     "static/media/LOT_Icon.png": "/airKiosk/static/media/LOT_Icon.c77b7615.png",
     "static/media/carousel_0.jpg": "/airKiosk/static/media/carousel_0.39bf4b3f.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.860607fe.js",
     "static/css/2.1186e647.chunk.css",
     "static/js/2.1de1fb43.chunk.js",
-    "static/css/main.701bafb8.chunk.css",
+    "static/css/main.0bb6a0eb.chunk.css",
     "static/js/main.ada612bc.chunk.js"
   ]
 }
