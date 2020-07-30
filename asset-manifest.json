@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/airKiosk/static/css/main.b17fe640.chunk.css",
-    "main.js": "/airKiosk/static/js/main.2a85083a.chunk.js",
-    "main.js.map": "/airKiosk/static/js/main.2a85083a.chunk.js.map",
+    "main.css": "/airKiosk/static/css/main.0e6203dc.chunk.css",
+    "main.js": "/airKiosk/static/js/main.ada612bc.chunk.js",
+    "main.js.map": "/airKiosk/static/js/main.ada612bc.chunk.js.map",
     "runtime-main.js": "/airKiosk/static/js/runtime-main.860607fe.js",
     "runtime-main.js.map": "/airKiosk/static/js/runtime-main.860607fe.js.map",
     "static/css/2.1186e647.chunk.css": "/airKiosk/static/css/2.1186e647.chunk.css",
     "static/js/2.1de1fb43.chunk.js": "/airKiosk/static/js/2.1de1fb43.chunk.js",
     "static/js/2.1de1fb43.chunk.js.map": "/airKiosk/static/js/2.1de1fb43.chunk.js.map",
     "index.html": "/airKiosk/index.html",
-    "precache-manifest.972f64ab8fab108d540bb6fc1437a9e2.js": "/airKiosk/precache-manifest.972f64ab8fab108d540bb6fc1437a9e2.js",
+    "precache-manifest.24635cafe6e2fb3cdceb7ccf742d8772.js": "/airKiosk/precache-manifest.24635cafe6e2fb3cdceb7ccf742d8772.js",
     "service-worker.js": "/airKiosk/service-worker.js",
     "static/css/2.1186e647.chunk.css.map": "/airKiosk/static/css/2.1186e647.chunk.css.map",
-    "static/css/main.b17fe640.chunk.css.map": "/airKiosk/static/css/main.b17fe640.chunk.css.map",
+    "static/css/main.0e6203dc.chunk.css.map": "/airKiosk/static/css/main.0e6203dc.chunk.css.map",
     "static/js/2.1de1fb43.chunk.js.LICENSE.txt": "/airKiosk/static/js/2.1de1fb43.chunk.js.LICENSE.txt",
     "static/media/LOT_Icon.png": "/airKiosk/static/media/LOT_Icon.c77b7615.png",
     "static/media/carousel_0.jpg": "/airKiosk/static/media/carousel_0.39bf4b3f.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.860607fe.js",
     "static/css/2.1186e647.chunk.css",
     "static/js/2.1de1fb43.chunk.js",
-    "static/css/main.b17fe640.chunk.css",
-    "static/js/main.2a85083a.chunk.js"
+    "static/css/main.0e6203dc.chunk.css",
+    "static/js/main.ada612bc.chunk.js"
   ]
 }
