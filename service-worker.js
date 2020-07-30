@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/airKiosk/precache-manifest.e5619f193cac457e17337980cc434289.js"
+  "/airKiosk/precache-manifest.ee082631113bc74b3e9518331084af0e.js"
 );
 
 self.addEventListener('message', (event) => {
