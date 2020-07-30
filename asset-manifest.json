@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/airKiosk/static/css/main.47c11ff7.chunk.css",
-    "main.js": "/airKiosk/static/js/main.2e2e44c1.chunk.js",
-    "main.js.map": "/airKiosk/static/js/main.2e2e44c1.chunk.js.map",
+    "main.css": "/airKiosk/static/css/main.c6289161.chunk.css",
+    "main.js": "/airKiosk/static/js/main.14945289.chunk.js",
+    "main.js.map": "/airKiosk/static/js/main.14945289.chunk.js.map",
     "runtime-main.js": "/airKiosk/static/js/runtime-main.860607fe.js",
     "runtime-main.js.map": "/airKiosk/static/js/runtime-main.860607fe.js.map",
     "static/css/2.1186e647.chunk.css": "/airKiosk/static/css/2.1186e647.chunk.css",
     "static/js/2.1de1fb43.chunk.js": "/airKiosk/static/js/2.1de1fb43.chunk.js",
     "static/js/2.1de1fb43.chunk.js.map": "/airKiosk/static/js/2.1de1fb43.chunk.js.map",
     "index.html": "/airKiosk/index.html",
-    "precache-manifest.8548dccb4a857198562657d88a48e48c.js": "/airKiosk/precache-manifest.8548dccb4a857198562657d88a48e48c.js",
+    "precache-manifest.fdaa99ed5919c21e52caadff4a8fb1a7.js": "/airKiosk/precache-manifest.fdaa99ed5919c21e52caadff4a8fb1a7.js",
     "service-worker.js": "/airKiosk/service-worker.js",
     "static/css/2.1186e647.chunk.css.map": "/airKiosk/static/css/2.1186e647.chunk.css.map",
-    "static/css/main.47c11ff7.chunk.css.map": "/airKiosk/static/css/main.47c11ff7.chunk.css.map",
+    "static/css/main.c6289161.chunk.css.map": "/airKiosk/static/css/main.c6289161.chunk.css.map",
     "static/js/2.1de1fb43.chunk.js.LICENSE.txt": "/airKiosk/static/js/2.1de1fb43.chunk.js.LICENSE.txt",
     "static/media/LOT_Icon.png": "/airKiosk/static/media/LOT_Icon.c77b7615.png",
     "static/media/carousel_0.jpg": "/airKiosk/static/media/carousel_0.39bf4b3f.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.860607fe.js",
     "static/css/2.1186e647.chunk.css",
     "static/js/2.1de1fb43.chunk.js",
-    "static/css/main.47c11ff7.chunk.css",
-    "static/js/main.2e2e44c1.chunk.js"
+    "static/css/main.c6289161.chunk.css",
+    "static/js/main.14945289.chunk.js"
   ]
 }
