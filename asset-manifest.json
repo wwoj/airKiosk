@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/airKiosk/static/css/main.0138de6f.chunk.css",
-    "main.js": "/airKiosk/static/js/main.b1ea1dab.chunk.js",
-    "main.js.map": "/airKiosk/static/js/main.b1ea1dab.chunk.js.map",
+    "main.js": "/airKiosk/static/js/main.42af938f.chunk.js",
+    "main.js.map": "/airKiosk/static/js/main.42af938f.chunk.js.map",
     "runtime-main.js": "/airKiosk/static/js/runtime-main.860607fe.js",
     "runtime-main.js.map": "/airKiosk/static/js/runtime-main.860607fe.js.map",
     "static/css/2.1186e647.chunk.css": "/airKiosk/static/css/2.1186e647.chunk.css",
     "static/js/2.1de1fb43.chunk.js": "/airKiosk/static/js/2.1de1fb43.chunk.js",
     "static/js/2.1de1fb43.chunk.js.map": "/airKiosk/static/js/2.1de1fb43.chunk.js.map",
     "index.html": "/airKiosk/index.html",
-    "precache-manifest.ece7e5d4df1a72960748067b98ffc384.js": "/airKiosk/precache-manifest.ece7e5d4df1a72960748067b98ffc384.js",
+    "precache-manifest.50e4b7b0b9d2e26780dc2ec351569e9b.js": "/airKiosk/precache-manifest.50e4b7b0b9d2e26780dc2ec351569e9b.js",
     "service-worker.js": "/airKiosk/service-worker.js",
     "static/css/2.1186e647.chunk.css.map": "/airKiosk/static/css/2.1186e647.chunk.css.map",
     "static/css/main.0138de6f.chunk.css.map": "/airKiosk/static/css/main.0138de6f.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.1186e647.chunk.css",
     "static/js/2.1de1fb43.chunk.js",
     "static/css/main.0138de6f.chunk.css",
-    "static/js/main.b1ea1dab.chunk.js"
+    "static/js/main.42af938f.chunk.js"
   ]
 }
