@@ -23,6 +23,7 @@ Project is created with:
 ## Setup
 To run this project, install it locally using npm:
 ```
+$ git clone https://wojwixx@bitbucket.org/dev_practice_pl/airkiosk_ww.git
 $ npm install
 $ npm start
 ```
