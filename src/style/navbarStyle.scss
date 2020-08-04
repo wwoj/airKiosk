@@ -1,5 +1,5 @@
 .nav {
- font-weight: 600;
+  font-weight: 600;
 }
 
 .nav-link {
@@ -9,16 +9,22 @@
 .form-control {
   border: none;
   background-color: transparent;
-  color:#132e71;
- 
+  color: #132e71;
 }
-.form-control::placeholder { color: #132e71;} /* Chrome, Firefox, Opera*/
-:-ms-input-placeholder.form-control { color: #132e71; }  /* Internet Explorer*/
-.form-control::-ms-input-placeholder { color: #132e71; }  /* Microsoft Edge*/
+.form-control::placeholder {
+  color: #132e71;
+} /* Chrome, Firefox, Opera*/
+:-ms-input-placeholder.form-control {
+  color: #132e71;
+} /* Internet Explorer*/
+.form-control::-ms-input-placeholder {
+  color: #132e71;
+} /* Microsoft Edge*/
 
 .input-group {
   border-radius: 0.3vw;
   background-color: rgb(240, 240, 240);
+  width: 95%;
 }
 .nav-search-input {
   background-clip: padding-box;
@@ -67,7 +73,7 @@ a {
 }
 .col-sm-3 {
   flex: 0 0 35%;
-  max-width: 82%;
+  max-width: 340px;
   padding: 0;
 }
 @media screen and (max-width: 1300px) {
@@ -95,6 +101,9 @@ a {
       left: 0%;
       border-bottom: 2px solid #2d2d58;
     }
+  }
+  .input-group {
+    width: 100%;
   }
   .nav-section {
     width: 90%;
