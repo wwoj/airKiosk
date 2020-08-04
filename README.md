@@ -8,7 +8,7 @@
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 ## General info
-The purpose of this project was to create the home page of the online store to replace the old website. The appearance of the page was created according to the provided pattern. To make the website many different programming solutions were used to create the website. 
+The purpose of this project was to create the home page of the online store to replace the old website. The appearance of the page was created according to the provided pattern. To create and style the website many different programming solutions were used. 
 
 ## Technologies
 Project is created with:
@@ -23,7 +23,6 @@ Project is created with:
 ## Setup
 To run this project, install it locally using npm:
 ```
-$ cd ..
 $ npm install
 $ npm start
 ```
