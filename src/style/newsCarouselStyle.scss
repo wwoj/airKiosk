@@ -1,15 +1,18 @@
-.news-carousel-conrainer{
-  padding:  10px 0 10px 0;
+.news-carousel-conrainer {
+  padding: 10px 0 10px 0;
 }
 .news-carousel {
+  margin: auto;
   width: 100%;
   display: flex;
 }
-.news-block-title{
+.news-block-title {
   width: auto;
 }
-.news-block-title > h4{
-  justify-content: center;
+.news-block-title {
+  > h4 {
+    justify-content: center;
+  }
 }
 .news-nav {
   width: 10%;
@@ -27,46 +30,19 @@
 .slick-slider {
   width: 80%;
 }
-.news-objects {
-  width: 99%;
-  min-width: 200px;
-  position: relative;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 230px;
-  padding-right: 1px;
-}
-.news-objects1 {
-  width: 99%;
-  min-width: 200px;
-  position: relative;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 230px;
-  padding-right: 1px;
-}
-.news-objects:last-child{
-  margin-bottom: 5%;
-}
+  
+
+
 .news-title {
   width: 90%;
   font-size: 1vw;
   font-weight: 500;
   @extend %text-deco;
+  > p {
+    margin: 0;
+  }
 }
-.news-title > p {
-  margin: 0;
-}
-.news-text {
 
-
-}
 .news-description {
   font-size: 0.9vw;
   font-weight: 500;
@@ -81,32 +57,23 @@
 %text-deco {
   text-align: center;
 }
-.news-button-div
-{
+.news-button-div {
   padding: 10px;
   text-align: center;
 }
-.news-button-div > button
-{
-  padding: 10px;
-  border: none;
-  border-radius: 0.4vw;
-  color: white;
-  background-color:#132e71;
-}
-.carousel-caption > h3{
-  font-size: 3vw;
-}
-.carousel-caption p {
-  font-size: 1vw;
+.news-button-div {
+  > button {
+    padding: 10px;
+    border: none;
+    border-radius: 0.4vw;
+    color: white;
+    background-color: #132e71;
+  }
 }
 
 @media screen and (max-width: 800px) {
-
-.carousel-caption > h3{
-  font-size: 4vw;
-}
-.carousel-caption p {
-  font-size: 2vw;
-}
+  .news-carousel {
+    width: 90%;
+    display: flex;
+  }
 }

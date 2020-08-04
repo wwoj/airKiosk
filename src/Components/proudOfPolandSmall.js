@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import CardObject from "./cardObject";
 import CardMain from "./cardMain";
-
+import '../style/proudOfPoloandStyle.scss'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../style/newsCarouselStyle.scss";
@@ -52,6 +52,14 @@ export default class OccasionCompSmall extends Component {
             dots: false,
           },
         },
+        // {
+        //   breakpoint: 700,
+        //   settings: {
+        //     slidesToShow: 2,
+        //     slidesToScroll: 2,
+        //     initialSlide: 2,
+        //   },
+        // },
         {
           breakpoint: 590,
           settings: {
@@ -62,7 +70,7 @@ export default class OccasionCompSmall extends Component {
       ],
     };
     return (
-      <div className="occasions-main">
+      <div className="proud-of-poland-container ">
         <div className="news-nav">
           <button className="news-nav-button" onClick={this.previous}>
             <FontAwesomeIcon icon={faAngleLeft} size="3x" />
@@ -70,42 +78,39 @@ export default class OccasionCompSmall extends Component {
         </div>
         <Slider ref={(c) => (this.slider = c)} {...settings}>
           <div>
-            <CardMain
-              img="https://pl.all.biz/img/pl/catalog/118067.jpeg"
-              alt="title picture"
-              topTitle="BIŻUTERIA VISANTI"
-              title="Produkty z oferty SHOP&MORE z dostawą pod wskazany adres na terenie Polsk."
-              text="Poznaj całą kolekcję>"
-            />
+          <CardObject
+          currentPrice="59,00"
+          img="https://i2.skapiec.pl/1/Vu8ktkpTURBXy83NmJmNTBkYzExZmNhYmMyMWMxYjE5YmUxYTk2NjM5OC5qcGeTlQLNArwAwsOVAgDNArzCw5MJpjdiMTJkMQY/dawanda-pl-folk-budzik-bialy-w-lowickie-wzory-ludowe-75751743.jpg"
+          alt="Budzik Łowicki img"
+          title="BUDZIK ŁOWICKI W KOLORZE BIAŁYM"
+          model={2}
+        />
           </div>
           <div>
           <CardObject
-          currentPrice="89.00"
-          prevPrice="129.00"
-          img="https://visanti.pl/moduly/sklep/UserFiles/big/26/-/Pierscionek-srebrny-z-biala-perla-slodkowodna-ok--6mm.jpg"
-          alt="PIERŚCIONEK VISANTI IMG"
-          title="PIERŚCIONEK VISANTI"
-          text="srebrny z białą perłą słodkowodną ok. 6mm"
+          currentPrice="6,00"
+          img="https://i.pinimg.com/originals/07/e5/ba/07e5ba783b57f50c65feb9acb4a05a78.jpg"
+          alt="Magnes łowicki img"
+          title="MAGNES ŁOWICKI W KOLORZE BIAŁYM"
+          model={2}
         />
         </div>
         <div>
         <CardObject
-          currentPrice="79.00"
-          prevPrice="83.00"
-          img="https://crewshop.ferier.pl/cache/b/1/7/d/a/b17dad824bfbb02a9c55db8365cef26df8b7d5a6.jpeg?version=v13"
-          alt="BRANSOLETKA VISANTI img"
-          title="BRANSOLETKA VISANTI"
-          text="perły łososiowe hodowane. słodkowodne 4-5mm, zapęcie srebrne"
+          currentPrice="10,00"
+          img="https://folkstar.pl/media/cache/sylius_shop_product_original/folkowe-gadzety-smycz-do-kluczy-lowickie-wzory-ludowe-wycinanka-5450-1.jpg"
+          alt="sMYCZ łowicka img"
+          title="SMYCZ ŁOWICKA W KOLORZE CZARNYM"
+          model={2}
         />
         </div>
         <div>
-        <CardObject
-          currentPrice="149.00"
-          prevPrice="189.00"
-          img="https://visanti.pl/moduly/sklep/UserFiles/small/319/-/Naszyjnik-z-perla-shell-wielkosci-20mm-w-kolorze-bialym.jpg"
-          alt="NASZYJNIK VISANTI img"
-          title="NASZYJNIK VISANTI"
-          text="z perłą shell wielkości 20mm w kolorze białym"
+        <CardMain
+          img="https://pl.all.biz/img/pl/catalog/118067.jpeg"
+          alt="PROUD POLAND IMG"
+          topTitle="PROUD OF POLAND"
+          title="Zobacz jak możesz poznać Polskę i odkryć jej niezwykłe piękno - poznaj nowoczesne wydanie polskiego tradycujnego folkloru."
+          text="Poznaj całą kolekcję>"
         />
           </div>
         </Slider>
@@ -118,4 +123,5 @@ export default class OccasionCompSmall extends Component {
     );
   }
 }
+
 

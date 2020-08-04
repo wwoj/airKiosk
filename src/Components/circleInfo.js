@@ -1,14 +1,9 @@
 import React from 'react';
-import "../style/blueDiv.scss";
-import Logo from '../Pictures/../Pictures/deliveryOnBoard.png'
+import "../style/shoppingInfoStyle.scss";
 const  CircleInfo = (props)=> {
-    const divStyle = {
-        background: 'blue',
-        backgroundImage: 'url(' + props.backgroundImg + ')',
-      };
     return (
         <div className="shopping-info-details">
-        <div className="info-details" style={divStyle}> </div>
+        <div className="info-details" ><img src={props.src} alt={props.alt}/> </div>
         <p>{props.infoText}</p>
         </div>
     )

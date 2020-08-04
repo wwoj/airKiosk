@@ -9,71 +9,71 @@ export default class NavBar extends Component {
       <section className="nav-section">
         <nav className="header-class  navbar-dark  box-shadow">
           <div className="nav-bar">
-            <ul class="nav">
+            <ul className="nav">
               <NavLink
                 exact={true}
                 activeClassName="active-link"
                 className="nav-link"
                 to="/"
               >
-                <li class="nav-item">Dostawa na pokład</li>
+                <li key="navBig_1" className="nav-item">Dostawa na pokład</li>
               </NavLink>
               <NavLink
                 exact={true}
                 activeClassName="active-link"
                 className="nav-link"
-                to="/calculate"
+                to="/dostawaAdres"
               >
-                <li class="nav-item">Dostawa na adres</li>
+                <li key="navBig_2" className="nav-item">Dostawa na adres</li>
               </NavLink>
               <NavLink
                 exact={true}
                 activeClassName="active-link"
                 className="nav-link"
-                to="/info"
+                to="/uslugi"
               >
-                <li class="nav-item">Usługi</li>
+                <li key="navBig_3" className="nav-item">Usługi</li>
               </NavLink>
               <NavLink
                 exact={true}
                 activeClassName="active-link"
                 className="nav-link"
-                to="/miniGame"
+                to="/aukcje"
               >
-                <li class="nav-item">Aukcje</li>
+                <li key="navBig_4" className="nav-item">Aukcje</li>
               </NavLink>
               <NavLink
                 exact={true}
                 activeClassName="active-link"
                 className="nav-link"
-                to="/aboutMe"
+                to="/nowosci"
               >
-                <li class="nav-active-link">Nowości</li>
+                <li key="navBig_5" className="nav-active-link">Nowości</li>
               </NavLink>
               <NavLink
                 exact={true}
                 activeClassName="active-link"
                 className="nav-link"
-                to="/aboutMe1"
+                to="/promocje"
               >
-                <li class="nav-active-link">Promocje</li>
+                <li key="navBig_6" className="nav-active-link">Promocje</li>
               </NavLink>
             </ul>
           </div>
         </nav>
-        <div class="col-sm-3 my-1">
-          <label class="sr-only" for="inlineFormInputGroupUsername">
+        <div className="col-sm-3 my-1">
+          <label className="sr-only" htmlFor="searchPhrase">
             Username
           </label>
-          <div class="input-group">
+          <div className="input-group">
             <input
               type="text"
-              class="form-control"
-              id="inlineFormInputGroupUsername"
+              className="form-control"
+              id="searchPhrase"
               placeholder="Szukaj produktu..."
             />
-            <div class="input-group-prepend">
-              <div class="input-group-text">
+            <div className="input-group-prepend">
+              <div className="input-group-text">
                 <SearchIcon />
               </div>
             </div>

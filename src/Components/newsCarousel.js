@@ -1,15 +1,16 @@
-import React, { Component, useState } from "react";
+import React, { Component} from "react";
 import Slider from "react-slick";
 import {
   faAngleLeft,
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { getNewsObjects } from "../Services/loadNews";
+import { getNewsObjects,dataFromJSON } from "../Services/loadNews";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../style/newsCarouselStyle.scss";
-import NewsObjects from "../Components/newsObject";
+
+import CardObject from "./cardObject";
 
 export default class PreviousNextMethods extends Component {
   constructor(props) {
@@ -22,7 +23,6 @@ export default class PreviousNextMethods extends Component {
   componentDidMount() {
     getNewsObjects().then((object) => {
       this.setState({ newsObjects: object });
-      console.log("Pobralem juz wszystko co bylo :)", this.state.newsObjects);
     });
   }
 
@@ -31,6 +31,14 @@ export default class PreviousNextMethods extends Component {
   }
   previous() {
     this.slider.slickPrev();
+  }
+  fetchJsonFile=()=>{
+    dataFromJSON()
+    .then(data => {
+      console.log("Result:",data)
+      this.setState({newsObjects: data});
+    })
+    .catch(err => console.error(err));
   }
 
   render() {
@@ -43,16 +51,15 @@ export default class PreviousNextMethods extends Component {
       arrows: false,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1300,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
-            infinite: true,
-            dots: true
+            infinite: true
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 1024,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
@@ -60,7 +67,7 @@ export default class PreviousNextMethods extends Component {
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 590,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
@@ -68,21 +75,22 @@ export default class PreviousNextMethods extends Component {
         }
       ]
     };
-    let cos = [];
-    let cos1 = [];
+  
+    let carouselObjectArray = [];
 
     if (this.state.newsObjects.length === 0) {
       return <div>Loader tutaj bedzie na cala szerokosc 80% :)</div>;
     } else {
-      cos1 = this.state.newsObjects.map((element, index) => {
+      carouselObjectArray = this.state.newsObjects.map((element, index) => {
         return (
-          <NewsObjects
-            img={element.picture}
-            alt={element.info}
-            info={element.info}
-            text={element.descripton}
-            price={element.price.toFixed(2)}
-          />
+          <CardObject
+          currentPrice={element.price.toFixed(2)}
+          img={element.picture}
+          alt={element.info}
+          title={element.info}
+          text = {element.descripton}
+          model={2}
+        />
         );
       });
     }
@@ -101,7 +109,7 @@ export default class PreviousNextMethods extends Component {
           </div>
 
           <Slider ref={(c) => (this.slider = c)} {...settings}>
-            {cos1}
+            {carouselObjectArray}
           </Slider>
 
           <div className="news-nav">

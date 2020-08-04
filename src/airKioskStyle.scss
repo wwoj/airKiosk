@@ -1,18 +1,24 @@
-@import './style/specialsStyle';
-.special-offerts{
-    width: 80%;
-    margin: auto;
-    
-    
-    @extend %display-flex;
-}
-%display-flex
-{
-    display: flex;
-    justify-content: space-between;
-}
-.special-objects
-{ 
-    width: 48%;
-    height: 300px;
-}
+// @import './style/specialsStyle';
+.root {
+    min-width: 300px;
+    font-size: 16px;
+  }
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-width: 300px;
+  }
+  .global-container{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    color: rgba(19, 46, 113, 1);
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }

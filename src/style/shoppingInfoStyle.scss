@@ -1,0 +1,57 @@
+.shopping-details {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgba(19, 46, 113, 1);
+  display: flex;
+  justify-content: center;
+}
+.circle-info {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.info-details {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.shopping-info-details {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.shopping-info-details {
+  img {
+    width: 100%;
+  }
+  > p {
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .circle-info {
+    width: 100%;
+  }
+  .info-details {
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+  }
+  .shopping-info-details {
+    p {
+      font-size: 0.7rem;
+    }
+  }
+}

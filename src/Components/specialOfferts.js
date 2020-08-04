@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../style/specialsStyle.scss';
+import '../style/specialsStyle.scss';
 export default class SpecialOfferts extends React.Component{
 render(){
     return(

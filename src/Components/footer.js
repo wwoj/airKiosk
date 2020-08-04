@@ -8,38 +8,38 @@ export default class Footer extends Component {
       <div className="footer-container">
         <div className="footer-main">
           <div className="footer-left">
-            <ul className="nav">
+            <ul className="footer-nav">
               <NavLink
                 exact={true}
                 activeClassName="footer-nav-active-link"
                 className="nav-link"
                 to="/"
               >
-                <li className="footer-nav-object">STRONA GŁÓWNA</li>
+                <li key="navFooter_1" className="footer-nav-object">STRONA GŁÓWNA</li>
               </NavLink>
               <NavLink
                 exact={true}
                 activeClassName="footer-nav-active-link"
                 className="nav-link"
-                to="/"
+                to="/aukcje"
               >
-                <li className="footer-nav-object">AUKCJE</li>
+                <li key="navFooter_2" className="footer-nav-object">AUKCJE</li>
               </NavLink>
               <NavLink
                 exact={true}
                 activeClassName="footer-nav-active-link"
                 className="nav-link"
-                to="/"
+                to="/nowosci"
               >
-                <li className="footer-nav-object">NOWOŚCI</li>
+                <li key="navFooter_3" className="footer-nav-object">NOWOŚCI</li>
               </NavLink>
               <NavLink
                 exact={true}
                 activeClassName="footer-nav-active-link"
                 className="nav-link"
-                to="/"
+                to="/promocje"
               >
-                <li className="footer-nav-object">PROMOCJE</li>
+                <li key="navFooter_4" className="footer-nav-object">PROMOCJE</li>
               </NavLink>
             </ul>
           </div>

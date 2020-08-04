@@ -1,38 +1,40 @@
 import React, { Component } from "react";
-import ShopItemMain from "./shopItemMain";
-
-import OccassionObject from "./occassionObject";
+import CardObject from "./cardObject";
+import CardMain from "./cardMain";
 export default class OccasionCompBig extends Component {
   render() {
     return (
       <div className="occasions-main">
-        <ShopItemMain
+        <CardMain
           img="https://pl.all.biz/img/pl/catalog/118067.jpeg"
-          alt="First Picture"
-          text="BUDZIK ŁOWICKI W KOLORZE BIAŁYM"
+          alt="title picture"
+          topTitle="BIŻUTERIA VISANTI"
+          title="Produkty z oferty SHOP&#38;MORE z dostawą pod wskazany adres na terenie Polsk."
+          text="Poznaj całą kolekcję>"
         />
-        <OccassionObject
+        <CardObject
+          currentPrice="89.00"
+          prevPrice="129.00"
           img="https://visanti.pl/moduly/sklep/UserFiles/big/26/-/Pierscionek-srebrny-z-biala-perla-slodkowodna-ok--6mm.jpg"
-          alt="First Picture"
-          text="PIERŚCIONEK VISANTI"
-          price="89.00"
-          oldPrice="129.00"
-          info="srebrny z białą perłą słodkowodną ok. 6mm"
+          alt="PIERŚCIONEK VISANTI IMG"
+          title="PIERŚCIONEK VISANTI"
+          text="srebrny z białą perłą słodkowodną ok. 6mm"
         />
-        <OccassionObject
+        <CardObject
+          currentPrice="79.00"
+          prevPrice="83.00"
           img="https://crewshop.ferier.pl/cache/b/1/7/d/a/b17dad824bfbb02a9c55db8365cef26df8b7d5a6.jpeg?version=v13"
-          alt="Bransoletka Visanti"
-          text="BRANSOLETA VISANTI"
-          price="79.00"
-          oldPrice="83.00"
-          info="perły łososiowe hodowane. słodkowodne 4-5mm, zapęcie srebrne"
+          alt="BRANSOLETKA VISANTI img"
+          title="BRANSOLETKA VISANTI"
+          text="perły łososiowe hodowane. słodkowodne 4-5mm, zapęcie srebrne"
         />
-        <OccassionObject
+        <CardObject
+          currentPrice="149.00"
+          prevPrice="189.00"
           img="https://visanti.pl/moduly/sklep/UserFiles/small/319/-/Naszyjnik-z-perla-shell-wielkosci-20mm-w-kolorze-bialym.jpg"
-          alt="Naszyjnik Visanti"
-          text="NASZYJNIK VISANTI"
-          price="149.00"
-          info="z perłą shell wielkości 20mm w kolorze białym"
+          alt="NASZYJNIK VISANTI img"
+          title="NASZYJNIK VISANTI"
+          text="z perłą shell wielkości 20mm w kolorze białym"
         />
       </div>
     );

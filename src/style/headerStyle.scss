@@ -2,31 +2,45 @@
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+
 }
 .header-top-object {
-  margin-left: 2%;
+  // margin-left: 2%;
   display: flex;
   align-items: center;
-
   width: 120px;
-  font-weight: 500;
+  font-weight: 600;
+  > select {
+    color:#132e71;
+    border: none;
+    font-weight: 600;
+  }
+  :hover{
+    cursor: pointer;
+  }
 }
-.header-top-object > select {
-  margin-left: 0.5vw;
-  border: none;
-}
+
 .main-lot-reservation {
   display: flex;
   align-items: center;
-  line-height: 10px;
   display: flex;
-  justify-content: flex-end;
-  padding-right: 10%;
+  justify-content: flex-start;
+  width: 35%;
+  min-width: 255px;
 }
+
 .main-bar-user {
   display: flex;
   justify-content: flex-end;
   padding: 10px 5px;
+}
+.main-bar-user-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  padding: 0;
+  font-size: 0.9rem;
+  min-width: 320px;
 }
 .main-bar-margin-left {
   margin-left: 1.2vw;
@@ -45,31 +59,93 @@
 .main-lot-icon {
   width: 120px;
 }
-.main-lot-reservation img {
-  width: 60px;
+.main-lot-reservation {
+  img{
+    width: 43px;
+  }
+ 
 }
 .main-lot-reservation-text {
   margin-left: 10px;
+  font-weight: 500;
+  p:nth-child(2) {
+    min-width: 360px;
+      display: flex;
+      justify-content: space-between;
+    }
 }
-.main-lot-reservation-text p:nth-child(2) {
+// .main-lot-reservation-text p:nth-child(2) {
+// min-width: 360px;
+//   display: flex;
+//   justify-content: space-between;
+// }
+.header-reservation-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 250px;
+ 
+}
+.header-reservation-img
+{
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-reservation-info{
+  height: 100%;
+  width: 185px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.header-reservation-text{
   display: flex;
   justify-content: space-between;
+  :last-child:hover{
+      cursor: pointer;
+      font-weight: 700;
+  }
 }
-
+.header-reservation-title{
+  font-size: 1rem;
+  white-space: nowrap;
+}
+.img-div{
+  width: 9rem;
+}
 @media screen and (max-width: 800px) {
+  
+  .header-reservation-container
+  {
+    width: 200px;
+  }
+  .header-reservation-info{
+    width: 146px;
+  }
   .header-bar {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
-  .main-bar-user {
+  .main-bar-user-nav {
+    width: 95%;
     justify-content: space-between;
+    margin:auto
   }
   .main-bar-ticket {
     padding: 0;
   }
   .main-lot-reservation {
-    padding-right: 10%;
+     min-width: 200px;
   }
-
+  .header-reservation-title, .header-reservation-text{
+    font-size: 0.8rem;
+  }
+  .img-div{
+    width: 5rem;
+  }
+  
 }

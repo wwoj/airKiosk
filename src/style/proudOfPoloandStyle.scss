@@ -1,16 +1,15 @@
 .proud-of-poland-container {
   padding-top: 20px;
-}
-.proud-poland-picture {
-  max-width: 150px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
   margin: auto;
-  width: 70%;
+  .card-nav-text{
+    background-color:#132e71 ;
+    color:white;
+  }
 }
-.proud-poland-picture-main {
-  max-width: 250px;
-  margin: auto;
-  width: 100%;
-}
+
 .proud-of-poland {
   width: 23%;
   min-width: 120px;
@@ -22,30 +21,16 @@
   align-items: center;
   overflow: hidden;
 }
-.poland-proud-button {
-  width: 100%;
-  background-color: rgba(19, 46, 113, 1);
-  color: white;
-  padding: 5px 10px;
-  text-align: center;
+.proud-of-poland-container {
+display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
 }
-.proud-poland-text {
-  width: 90%;
-  margin: auto;
-  text-align: center;
-  padding: 10px;
-  font-size: 1vw;
-  font-weight: 500;
-}
-.proud-text-item {
-  width: 70%;
-}
-.occasion-text{
-  text-align: center;
-  font-size: 2vw;
-}
-@media screen and (max-width: 800px) {
-  .occasions-main{
-width: 100%;
+
+@media screen and (max-width: 1000px) {
+ 
+  .proud-of-poland-container {
+    width: 90%;
   }
 }

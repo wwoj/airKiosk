@@ -14,8 +14,6 @@ export default class NavBar extends Component {
     };
   }
   hideNavbar = () => {
-    console.log(styleHide);
-    console.log("a stan: ", this.state.navbarStyle);
     this.setState({ navbarStyle: styleHide });
   };
   showNavbar = () => {
@@ -27,19 +25,21 @@ export default class NavBar extends Component {
       <section className="nav-section">
         <nav className="header-class  navbar-dark  box-shadow">
           <div className="nav-bar">
-            <div class="nav-menu-button" onClick={this.showNavbar}>
-            <FontAwesomeIcon icon={faBars} size="3x" />
+            <div className="nav-menu-button" onClick={this.showNavbar}>
+              <FontAwesomeIcon icon={faBars} size="3x" />
             </div>
 
-            <div class="hidden-navbar " style={this.state.navbarStyle}>
-              <ul class="nav">
+            <div className="hidden-navbar" style={this.state.navbarStyle}>
+              <ul className="nav">
                 <NavLink
                   exact={true}
                   activeClassName="active-link"
                   className="nav-link"
                   to="/"
                 >
-                  <li class="nav-item">Dostawa na pokład</li>
+                  <li key="nav_1" className="nav-item" onClick={this.hideNavbar}>
+                    Dostawa na pokład
+                  </li>
                 </NavLink>
                 <NavLink
                   exact={true}
@@ -47,7 +47,9 @@ export default class NavBar extends Component {
                   className="nav-link"
                   to="/calculate"
                 >
-                  <li class="nav-item">Dostawa na adres</li>
+                  <li key="nav_2" className="nav-item" onClick={this.hideNavbar}>
+                    Dostawa na adres
+                  </li>
                 </NavLink>
                 <NavLink
                   exact={true}
@@ -55,7 +57,9 @@ export default class NavBar extends Component {
                   className="nav-link"
                   to="/info"
                 >
-                  <li class="nav-item">Usługi</li>
+                  <li key="nav_3" className="nav-item" onClick={this.hideNavbar}>
+                    Usługi
+                  </li>
                 </NavLink>
                 <NavLink
                   exact={true}
@@ -63,7 +67,9 @@ export default class NavBar extends Component {
                   className="nav-link"
                   to="/miniGame"
                 >
-                  <li class="nav-item">Aukcje</li>
+                  <li key="nav_4" className="nav-item" onClick={this.hideNavbar}>
+                    Aukcje
+                  </li>
                 </NavLink>
                 <NavLink
                   exact={true}
@@ -71,7 +77,9 @@ export default class NavBar extends Component {
                   className="nav-link"
                   to="/aboutMe"
                 >
-                  <li class="nav-active-link">Nowości</li>
+                  <li key="nav_5" className="nav-active-link" onClick={this.hideNavbar}>
+                    Nowości
+                  </li>
                 </NavLink>
                 <NavLink
                   exact={true}
@@ -79,28 +87,30 @@ export default class NavBar extends Component {
                   className="nav-link"
                   to="/aboutMe1"
                 >
-                  <li class="nav-active-link">Promocje</li>
+                  <li key="nav_6" className="nav-active-link" onClick={this.hideNavbar}>
+                    Promocje
+                  </li>
                 </NavLink>
-                <li class="nav-active-link" onClick={this.hideNavbar}>
+                <li key="nav_7" className="nav-active-link" onClick={this.hideNavbar}>
                   Zamknij
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-        <div class="col-sm-3 my-1">
-          <label class="sr-only" for="inlineFormInputGroupUsername">
+        <div className="col-sm-3 my-1">
+          <label className="sr-only" htmlFor="inlineFormInputGroupUsername">
             Username
           </label>
-          <div class="input-group">
+          <div className="input-group">
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="inlineFormInputGroupUsername"
               placeholder="Szukaj produktu..."
             />
-            <div class="input-group-prepend">
-              <div class="input-group-text">
+            <div className="input-group-prepend">
+              <div className="input-group-text">
                 <SearchIcon />
               </div>
             </div>
@@ -112,8 +122,5 @@ export default class NavBar extends Component {
 }
 
 const styleHide = {
-  visibility: "hidden",
-};
-const styleShow = {
-  visibility: "show",
+  visibility: "hidden"
 };

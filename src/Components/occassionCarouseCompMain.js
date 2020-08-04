@@ -8,6 +8,7 @@ const   CarouselLink = (props)=> {
   
     return (
       <div className="occassion-carousel-comp">
+        <div>
         <img
           className="d-block  proud-poland-picture-main"
           src={props.img}
@@ -18,7 +19,7 @@ const   CarouselLink = (props)=> {
           <h4>
             <div className="occasion-text">BIŻUTERIA VISANTI</div>
           </h4>
-
+          </div>
         </div>
         <div className="proud-poland-text">Produkty z oferty SHOP&#38;MORE z dostawą pod wskazany adres na terenie polski.</div>
         <div className="link-button"><span>Poznaj całą kolekcję&#62;</span></div>

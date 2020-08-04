@@ -20,16 +20,16 @@
   display: flex;
 }
 .special-text-left {
-  width: 65%;
+  width: 60%;
   background: #e6e6e6;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   justify-content: center;
   align-items: center;
   vertical-align: baseline;
   @extend %special-bottom-text;
 }
 .special-text-right {
-  width: 35%;
+  width: 40%;
   background: #f0f0f0;
   flex-direction: column;
   justify-content: center;
@@ -43,12 +43,12 @@
 }
 .special-p-main {
   @extend %p-max100;
-  font-size: 1vw;
+  font-size: 0.8rem;
   font-weight: 600;
 }
 .special-p-desc {
   @extend %p-max100;
-  font-size: 0.8vw;
+  font-size: 0.6rem;
   font-weight: 400;
 }
 .special-text-container {
@@ -62,25 +62,23 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-.special-text-main > p {
-  margin-bottom: 0.2vw;
-  font-size: 2vw;
-}
-.special-text-main > span {
-  font-size: 1vw;
+  > p {
+    margin-bottom: 0.2vw;
+    font-size: 2rem;
+    padding-top: 35px;
+  }
+  > span {
+    font-size: 1rem;
+  }
 }
 .special-text-button {
   border: 2px solid white;
   border-radius: 5%;
-
+  > p {
+    margin: 5px 15px;
+  }
 }
-.special-text-button > p {
-  margin: 5px 15px;
-}
-
 .special-offerts {
-  background-color: red;
   display: flex;
   flex-wrap: wrap;
 }
@@ -94,16 +92,53 @@
 .special-add-objects {
   width: 48%;
   height: 300px;
+  min-height: 230px;
+  min-width: 300px;
+  div {
+    :hover {
+      cursor: pointer;
+    }
+  }
 }
-@media screen and (max-width: 800px) {
-  .special-add-container{
-    padding-top:10px ;
+@media screen and (max-width: 1154px) {
+  .special-text-left {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1005px) {
+  .special-offerts {
     width: 100%;
-   
+  }
+}
+@media screen and (max-width: 973px) {
+  .special-add-container {
+    padding-top: 10px;
+    width: 100%;
   }
   .special-add-objects {
     width: 100%;
     height: 150px;
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
+  }
+  .special-text-left {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .special-text-left {
+    span{
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  }
+}
+@media screen and (max-width: 350px) {
+  .special-text-left {
+    :hover {
+      cursor: pointer;
+    }
+    span {
+      font-size: 1rem;
+    }
   }
 }

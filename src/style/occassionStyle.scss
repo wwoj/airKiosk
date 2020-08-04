@@ -7,14 +7,9 @@
   margin: auto;
   flex-wrap: wrap;
 }
-.occassion-picture {
-  //max-width: 150px;
-  margin: auto;
-  width: 80%;
-}
 
 .occassion-carousel-button {
-  font-size: 1.7vw;
+  font-size: 1.5rem;
   letter-spacing: 1px;
   border: white 4px solid;
   background: transparent;
@@ -23,48 +18,8 @@
   border-radius: 0.5vw;
   color: white;
 }
-.occassion-card {
-  width: 23%;
-  min-width: 120px;
-  position: relative;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 230px;
-  padding-right: 1px;
-}
 
-.occassion-div-pic {
-  width: 100%;
-  min-height: 180px;
-  max-height: 200px;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
-.occasion-image {
-  max-width: 1335px;
-  margin: 0 auto;
-  width: 90%;
-}
-.price-container {
-  width: 90%;
-  align-items: baseline;
-  display: flex;
-  justify-content: space-around;
-}
-.oldPrice {
-  text-decoration: line-through;
-  color: #646464;
-  font-weight: 600;
-}
-.move-up {
-  display: flex;
-}
-.occasions-main .slick-slider
-{
+.occasions-main .slick-slider {
   width: 80%;
   margin: auto;
 }
@@ -81,11 +36,87 @@
   overflow: hidden;
   min-height: 265px;
 }
+.carousel-indicators {
+  display:flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10%;
+  transform: translateY(-50%);
+  padding: 0;
+  margin-bottom: 0;
+}
+.carousel-caption {
+  position: absolute;
+  bottom: 52%;
+  transform: translateY(+50%);
+
+  padding: 0;
+}
+.carousel-item {
+  min-height: 250px;
+  max-height: 400px;
+  position: relative;
+}
+.w-100 {
+  min-height: 250px;
+}
+
+.carousel-caption {
+  > h3 {
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+  p {
+    font-size: 1.5rem;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+}
+.carousel-inner {
+  max-height: 400px;
+}
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 50%;
+}
+.carousel-indicators .active{
+  background-color: transparent;
+  border: 2px solid white;
+  width: 6px;
+  height: 6px;
+
+}
+@media screen and (max-width: 1024px) {
+  .occasions-main {
+    position: relative;
+    top: 0px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .carousel-indicators {
+    bottom: 0;
+  }
+  .carousel-caption {
+    > h3 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+}
 @media screen and (max-width: 800px) {
   .occasions-main {
     position: relative;
     top: 0px;
-    width: 100%;
+    width: 90% !important;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -96,10 +127,30 @@
     margin: auto;
     min-height: 265px;
   }
-  .occasions-main  .slick-next:before,.occasions-main .slick-prev:before
-  {
-    color: rgba(19, 46, 113, 1);
+  .occasions-main {
+    .slick-next:before,
+    .slick-prev:before {
+      color: rgba(19, 46, 113, 1);
+    }
   }
-
+  .carousel-caption {
+    > h3 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  .occassion-carousel-button {
+    font-size: 1rem;
+  }
 }
-
+@media screen and (max-width: 800px) {
+  .carousel-caption p {
+    font-size: 0.9rem;
+}
+}
+.occasion-text {
+  text-align: center;
+  font-size: 2rem;
+}
