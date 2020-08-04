@@ -1,30 +1,28 @@
 {
   "files": {
-    "main.css": "/airKiosk/static/css/main.2fd606c8.chunk.css",
-    "main.js": "/airKiosk/static/js/main.14f4767d.chunk.js",
-    "main.js.map": "/airKiosk/static/js/main.14f4767d.chunk.js.map",
+    "main.css": "/airKiosk/static/css/main.7d9d63d0.chunk.css",
+    "main.js": "/airKiosk/static/js/main.e6104115.chunk.js",
+    "main.js.map": "/airKiosk/static/js/main.e6104115.chunk.js.map",
     "runtime-main.js": "/airKiosk/static/js/runtime-main.860607fe.js",
     "runtime-main.js.map": "/airKiosk/static/js/runtime-main.860607fe.js.map",
     "static/css/2.1186e647.chunk.css": "/airKiosk/static/css/2.1186e647.chunk.css",
-    "static/js/2.03591074.chunk.js": "/airKiosk/static/js/2.03591074.chunk.js",
-    "static/js/2.03591074.chunk.js.map": "/airKiosk/static/js/2.03591074.chunk.js.map",
+    "static/js/2.a6283fb5.chunk.js": "/airKiosk/static/js/2.a6283fb5.chunk.js",
+    "static/js/2.a6283fb5.chunk.js.map": "/airKiosk/static/js/2.a6283fb5.chunk.js.map",
     "index.html": "/airKiosk/index.html",
-    "precache-manifest.34a99721733817a5a5d9ca863773a3d7.js": "/airKiosk/precache-manifest.34a99721733817a5a5d9ca863773a3d7.js",
+    "precache-manifest.67752da792e3a2c31785d7808d5370dd.js": "/airKiosk/precache-manifest.67752da792e3a2c31785d7808d5370dd.js",
     "service-worker.js": "/airKiosk/service-worker.js",
     "static/css/2.1186e647.chunk.css.map": "/airKiosk/static/css/2.1186e647.chunk.css.map",
-    "static/css/main.2fd606c8.chunk.css.map": "/airKiosk/static/css/main.2fd606c8.chunk.css.map",
-    "static/js/2.03591074.chunk.js.LICENSE.txt": "/airKiosk/static/js/2.03591074.chunk.js.LICENSE.txt",
+    "static/css/main.7d9d63d0.chunk.css.map": "/airKiosk/static/css/main.7d9d63d0.chunk.css.map",
+    "static/js/2.a6283fb5.chunk.js.LICENSE.txt": "/airKiosk/static/js/2.a6283fb5.chunk.js.LICENSE.txt",
     "static/media/LOT_Icon.png": "/airKiosk/static/media/LOT_Icon.c77b7615.png",
-    "static/media/carousel_0.jpg": "/airKiosk/static/media/carousel_0.39bf4b3f.jpg",
-    "static/media/carousel_2.jpg": "/airKiosk/static/media/carousel_2.e3f6cf54.jpg",
     "static/media/carousel_4.JPG": "/airKiosk/static/media/carousel_4.c4267d89.JPG",
     "static/media/slick-theme.css": "/airKiosk/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.860607fe.js",
     "static/css/2.1186e647.chunk.css",
-    "static/js/2.03591074.chunk.js",
-    "static/css/main.2fd606c8.chunk.css",
-    "static/js/main.14f4767d.chunk.js"
+    "static/js/2.a6283fb5.chunk.js",
+    "static/css/main.7d9d63d0.chunk.css",
+    "static/js/main.e6104115.chunk.js"
   ]
 }
