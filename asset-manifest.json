@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/airKiosk/static/css/main.479555fb.chunk.css",
-    "main.js": "/airKiosk/static/js/main.9a35d524.chunk.js",
-    "main.js.map": "/airKiosk/static/js/main.9a35d524.chunk.js.map",
+    "main.css": "/airKiosk/static/css/main.2fd606c8.chunk.css",
+    "main.js": "/airKiosk/static/js/main.14f4767d.chunk.js",
+    "main.js.map": "/airKiosk/static/js/main.14f4767d.chunk.js.map",
     "runtime-main.js": "/airKiosk/static/js/runtime-main.860607fe.js",
     "runtime-main.js.map": "/airKiosk/static/js/runtime-main.860607fe.js.map",
     "static/css/2.1186e647.chunk.css": "/airKiosk/static/css/2.1186e647.chunk.css",
     "static/js/2.03591074.chunk.js": "/airKiosk/static/js/2.03591074.chunk.js",
     "static/js/2.03591074.chunk.js.map": "/airKiosk/static/js/2.03591074.chunk.js.map",
     "index.html": "/airKiosk/index.html",
-    "precache-manifest.5502c3b4adcb943fed79aa015c0fb533.js": "/airKiosk/precache-manifest.5502c3b4adcb943fed79aa015c0fb533.js",
+    "precache-manifest.34a99721733817a5a5d9ca863773a3d7.js": "/airKiosk/precache-manifest.34a99721733817a5a5d9ca863773a3d7.js",
     "service-worker.js": "/airKiosk/service-worker.js",
     "static/css/2.1186e647.chunk.css.map": "/airKiosk/static/css/2.1186e647.chunk.css.map",
-    "static/css/main.479555fb.chunk.css.map": "/airKiosk/static/css/main.479555fb.chunk.css.map",
+    "static/css/main.2fd606c8.chunk.css.map": "/airKiosk/static/css/main.2fd606c8.chunk.css.map",
     "static/js/2.03591074.chunk.js.LICENSE.txt": "/airKiosk/static/js/2.03591074.chunk.js.LICENSE.txt",
     "static/media/LOT_Icon.png": "/airKiosk/static/media/LOT_Icon.c77b7615.png",
     "static/media/carousel_0.jpg": "/airKiosk/static/media/carousel_0.39bf4b3f.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.860607fe.js",
     "static/css/2.1186e647.chunk.css",
     "static/js/2.03591074.chunk.js",
-    "static/css/main.479555fb.chunk.css",
-    "static/js/main.9a35d524.chunk.js"
+    "static/css/main.2fd606c8.chunk.css",
+    "static/js/main.14f4767d.chunk.js"
   ]
 }
