@@ -11,6 +11,17 @@
   background-color: transparent;
   color: #132e71;
 }
+.form-control:focus{
+  background-color: #afb3b7;
+}
+.input-group-prepend {
+  :hover {
+    cursor: pointer;
+  }
+  :active {
+    background-color: #afb3b7;
+  }
+}
 .form-control::placeholder {
   color: #132e71;
 } /* Chrome, Firefox, Opera*/

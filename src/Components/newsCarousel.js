@@ -5,7 +5,7 @@ import {
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { getNewsObjects,dataFromJSON } from "../Services/loadNews";
+import { getNewsObjects} from "../Services/loadNews";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../style/newsCarouselStyle.scss";
@@ -32,14 +32,7 @@ export default class PreviousNextMethods extends Component {
   previous() {
     this.slider.slickPrev();
   }
-  fetchJsonFile=()=>{
-    dataFromJSON()
-    .then(data => {
-      console.log("Result:",data)
-      this.setState({newsObjects: data});
-    })
-    .catch(err => console.error(err));
-  }
+ 
 
   render() {
     const settings = {

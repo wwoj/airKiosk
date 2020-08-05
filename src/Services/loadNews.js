@@ -12,9 +12,4 @@ export function getNewsObjects() {
   }
 
 
-  export function dataFromJSON(){
-     return fetch('/airKiosk/newsObjects.json')
-                  .then(res => 
-                    { 
-                      return res.json()});
-  }
+ 
