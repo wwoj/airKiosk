@@ -77,7 +77,7 @@ export default class PreviousNextMethods extends Component {
       carouselObjectArray = this.state.newsObjects.map((element, index) => {
         return (
           <CardObject
-          currentPrice={element.price.toFixed(2)}
+          currentPrice={element.price.toFixed(2).replace(/\./g, ',')}
           img={element.picture}
           alt={element.info}
           title={element.info}
