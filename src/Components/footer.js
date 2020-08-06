@@ -51,7 +51,7 @@ export default class Footer extends Component {
               <div className="footer-social-logo"><img className="footer-social-img" src="https://static.wixstatic.com/media/632442_891c871063c740c2a2dcff119b11b8f9.png/v1/fill/w_784,h_784,al_c,q_95,usm_0.66_1.00_0.01/632442_891c871063c740c2a2dcff119b11b8f9.webp" alt="Social Media Logo"/></div>
               <div className="footer-social-logo"><img className="footer-social-img" src="https://www.maryville.edu/wp-content/uploads/2015/11/youtube-logo-png-3575.png" alt="YouTube Logo"/></div>
               <div className="footer-social-logo"><img className="footer-social-img" src="https://www.oprojektowaniu.pl/wp-content/uploads/2017/02/official-linkedin-logo-tile-300x300.png" alt="LinkedIn Logo"/></div>
-              <div className="footer-social-logo"><img className="footer-social-img" src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Instagram-512.png" alt="Instagram Logo"/></div>
+              <div className="footer-social-logo"><img className="footer-social-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/240px-Instagram_logo_2016.svg.png" alt="Instagram Logo"/></div>
         
             </div>
           </div>
